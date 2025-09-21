@@ -5,8 +5,8 @@
 - Estructura de Datos
 
 ## Integrantes:
-- Yenny Paola Bravo Paredes
-- Wilner Andrés González González
+- Karen Liceth Gonzalez Gonzalez
+- Andrick Alain Preciado Gonzalez
 
 ## Algoritmo: 
 - Selection Sort
