@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#define MAX 100
+#define MAX 10
 
-// Prototipos de funciones
+
 void selectionSort(int arr[], int n);
 void insertionSort(int arr[], int n);
 void imprimirArreglo(int arr[], int n);
@@ -48,7 +48,6 @@ int main() {
     return 0;
 }
 
-// ---------------- Selection Sort ----------------
 void selectionSort(int arr[], int n) {
     int i, j, min_idx, temp;
 
@@ -59,14 +58,14 @@ void selectionSort(int arr[], int n) {
                 min_idx = j;
             }
         }
-        // Intercambiar
+        
         temp = arr[min_idx];
         arr[min_idx] = arr[i];
         arr[i] = temp;
     }
 }
 
-// ---------------- Insertion Sort ----------------
+
 void insertionSort(int arr[], int n) {
     int i, key, j;
 
@@ -82,7 +81,6 @@ void insertionSort(int arr[], int n) {
     }
 }
 
-// ---------------- Imprimir arreglo ----------------
 void imprimirArreglo(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
